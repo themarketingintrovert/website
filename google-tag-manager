@@ -1,0 +1,16 @@
+// Add Google Tag Manager code in <head>
+add_action( 'wp_head', 'tmi_google_tag_manager_head' );
+function tmi_google_tag_manager_head() { ?>
+	
+//Replace this entire line with the first part of the code <head>
+
+<?php }
+
+
+// Add Google Tag Manager code immediately below opening <body> tag
+add_action( 'genesis_before', 'tmi_google_tag_manager_body' );
+function tmi_google_tag_manager_body() { ?>
+	
+//Replace this entire line with the second part of the code <body>
+
+<?php }
